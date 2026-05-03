@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tooluse-labs/.github/main/assets/brand/avatar.svg" width="160" alt="Tooluse Labs">
+  <img src="https://raw.githubusercontent.com/tooluse-labs/.github/main/assets/brand/avatar-v4a-router-bold-rot90.svg" width="160" alt="Tooluse Labs">
 </p>
 
 <h1 align="center">Tooluse Labs</h1>

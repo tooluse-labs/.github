@@ -1,0 +1,29 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tooluse Labs avatar v2 candidate</title>
+  <desc id="desc">Cyan code brackets around an amber connected tool-call graph on a dark rounded square.</desc>
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="232" y2="238" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071113"/>
+      <stop offset="1" stop-color="#102426"/>
+    </linearGradient>
+    <linearGradient id="bracket" x1="38" y1="64" x2="218" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8CF7EA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="node" x1="96" y1="100" x2="160" y2="152" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="256" rx="52" fill="url(#bg)"/>
+  <rect x="8" y="8" width="240" height="240" rx="48" fill="none" stroke="#E7FFFB" stroke-opacity=".06" stroke-width="2"/>
+
+  <path d="M68 66 L42 66 L42 190 L68 190" fill="none" stroke="url(#bracket)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M188 66 L214 66 L214 190 L188 190" fill="none" stroke="url(#bracket)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M98 142 L128 112 L158 142" fill="none" stroke="#2A4F4F" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="98" cy="142" r="14" fill="url(#node)"/>
+  <circle cx="128" cy="112" r="14" fill="url(#node)"/>
+  <circle cx="158" cy="142" r="14" fill="url(#node)"/>
+</svg>

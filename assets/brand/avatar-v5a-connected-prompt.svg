@@ -1,0 +1,34 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tooluse Labs avatar v5a connected prompt candidate</title>
+  <desc id="desc">Cyan code brackets around three connected amber nodes and two output dots on a dark rounded square.</desc>
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="232" y2="238" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071113"/>
+      <stop offset="1" stop-color="#102426"/>
+    </linearGradient>
+    <linearGradient id="bracket" x1="42" y1="66" x2="214" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8CF7EA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="node" x1="98" y1="98" x2="172" y2="158" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="256" rx="52" fill="url(#bg)"/>
+  <rect x="8" y="8" width="240" height="240" rx="48" fill="none" stroke="#E7FFFB" stroke-opacity=".06" stroke-width="2"/>
+
+  <path d="M68 66 L42 66 L42 190 L68 190" fill="none" stroke="url(#bracket)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M188 66 L214 66 L214 190 L188 190" fill="none" stroke="url(#bracket)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M104 102 L132 128 L104 154" fill="none" stroke="#332916" stroke-opacity=".55" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M104 102 L132 128 L104 154" fill="none" stroke="url(#node)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="104" cy="102" r="10.5" fill="url(#node)" stroke="#071113" stroke-width="2.5"/>
+  <circle cx="132" cy="128" r="11.5" fill="url(#node)" stroke="#071113" stroke-width="2.5"/>
+  <circle cx="104" cy="154" r="10.5" fill="url(#node)" stroke="#071113" stroke-width="2.5"/>
+
+  <circle cx="152" cy="154" r="10" fill="url(#node)" stroke="#071113" stroke-width="2.5"/>
+  <circle cx="172" cy="154" r="10" fill="url(#node)" stroke="#071113" stroke-width="2.5"/>
+</svg>

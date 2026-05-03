@@ -1,0 +1,33 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tooluse Labs avatar v4 router candidate</title>
+  <desc id="desc">Cyan code brackets around an amber selected route with two muted tool candidates.</desc>
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="232" y2="238" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071113"/>
+      <stop offset="1" stop-color="#102426"/>
+    </linearGradient>
+    <linearGradient id="bracket" x1="42" y1="66" x2="214" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8CF7EA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="selected" x1="108" y1="92" x2="160" y2="154" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="256" rx="52" fill="url(#bg)"/>
+  <rect x="8" y="8" width="240" height="240" rx="48" fill="none" stroke="#E7FFFB" stroke-opacity=".06" stroke-width="2"/>
+
+  <path d="M68 66 L42 66 L42 190 L68 190" fill="none" stroke="url(#bracket)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M188 66 L214 66 L214 190 L188 190" fill="none" stroke="url(#bracket)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M96 146 C112 126 120 116 128 106 C137 118 145 128 160 146" fill="none" stroke="#315E5D" stroke-width="9" stroke-linecap="round"/>
+  <path d="M128 106 C137 118 145 128 160 146" fill="none" stroke="url(#selected)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M153 145 L162 148 L159 139" fill="none" stroke="#F59E0B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="96" cy="146" r="12" fill="#2DD4BF"/>
+  <circle cx="96" cy="146" r="7" fill="#071113" fill-opacity=".45"/>
+  <circle cx="128" cy="106" r="14" fill="#FFD166"/>
+  <circle cx="160" cy="146" r="14" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tooluse Labs avatar v4e Big Dipper candidate</title>
+  <desc id="desc">Cyan code brackets around an amber Big Dipper constellation on a dark rounded square.</desc>
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="232" y2="238" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071113"/>
+      <stop offset="1" stop-color="#102426"/>
+    </linearGradient>
+    <linearGradient id="bracket" x1="42" y1="66" x2="214" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8CF7EA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="constellation" x1="82" y1="151" x2="170" y2="101" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE08A"/>
+      <stop offset=".55" stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="256" rx="52" fill="url(#bg)"/>
+  <rect x="8" y="8" width="240" height="240" rx="48" fill="none" stroke="#E7FFFB" stroke-opacity=".06" stroke-width="2"/>
+
+  <path d="M68 66 L42 66 L42 190 L68 190" fill="none" stroke="url(#bracket)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M188 66 L214 66 L214 190 L188 190" fill="none" stroke="url(#bracket)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- North-up, east-left tangent-plane projection from J2000 RA/Dec. -->
+  <path d="M176.9 101.4 L178 124.4 L146.6 135.8 L133.6 121.6 L110.3 126.2 L92.3 130.6 L78 154.6"
+        fill="none" stroke="#332814" stroke-opacity=".5" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M176.9 101.4 L178 124.4 L146.6 135.8 L133.6 121.6 L110.3 126.2 L92.3 130.6 L78 154.6"
+        fill="none" stroke="#FFD166" stroke-opacity=".62" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="176.9" cy="101.4" r="7.8" fill="url(#constellation)" stroke="#071113" stroke-width="2.4"/>
+  <circle cx="178" cy="124.4" r="6.8" fill="url(#constellation)" stroke="#071113" stroke-width="2.3"/>
+  <circle cx="146.6" cy="135.8" r="6.7" fill="url(#constellation)" stroke="#071113" stroke-width="2.3"/>
+  <circle cx="133.6" cy="121.6" r="5.4" fill="url(#constellation)" stroke="#071113" stroke-width="2.1"/>
+  <circle cx="110.3" cy="126.2" r="7.9" fill="url(#constellation)" stroke="#071113" stroke-width="2.4"/>
+  <circle cx="92.3" cy="130.6" r="7.2" fill="url(#constellation)" stroke="#071113" stroke-width="2.3"/>
+  <circle cx="78" cy="154.6" r="7.6" fill="url(#constellation)" stroke="#071113" stroke-width="2.4"/>
+</svg>
