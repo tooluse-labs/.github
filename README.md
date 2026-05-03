@@ -15,6 +15,10 @@ Org-level configuration and assets for [Tooluse Labs](https://github.com/tooluse
 | `assets/brand/avatar-1024.png` | High-res raster for GitHub org Settings → Profile picture (recommended upload). |
 | `assets/brand/avatar-460.png` | Fallback raster for places that prefer a smaller upload. |
 | `assets/brand/avatar-circle-preview.png` | Reference image showing how the avatar renders after GitHub's circular crop. Not for upload. |
+| `assets/brand/logo-lockup.svg` | Full profile README lockup: selected V4a clockwise router marker plus wordmark and tagline. |
+| `assets/brand/logo-lockup-1200.png` | High-res raster export of the lockup for review or reuse. |
+| `assets/brand/logo-lockup-920.png` | Native-size raster export matching the SVG viewBox. |
+| `assets/brand/logo-lockup-preview-light.png` | White-background preview for quickly checking the README lockup. Not for upload. |
 
 To regenerate the PNGs after editing `avatar.svg`:
 

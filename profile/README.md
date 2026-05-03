@@ -1,11 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tooluse-labs/.github/main/assets/brand/avatar-v4a-router-bold-rot90.svg" width="160" alt="Tooluse Labs">
-</p>
-
-<h1 align="center">Tooluse Labs</h1>
-
-<p align="center">
-  Open-source tools for AI agents — MCP servers, skills, and supporting tooling.
+  <img src="https://raw.githubusercontent.com/tooluse-labs/.github/main/assets/brand/logo-lockup.svg" width="720" alt="Tooluse Labs — Open-source tools for AI agents: MCP servers, skills, and supporting tooling.">
 </p>
 
 ---
