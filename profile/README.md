@@ -6,8 +6,16 @@
 
 ## Active projects
 
-- <img src="https://raw.githubusercontent.com/tooluse-labs/.github/main/assets/project-markers/perfetto-mcp-rs.svg" width="18" height="18" alt=""> [**perfetto-mcp-rs**](https://github.com/tooluse-labs/perfetto-mcp-rs) — MCP server for Perfetto trace analysis. PerfettoSQL queries on `.pftrace` / `.perfetto-trace` / `.bin` files plus dedicated Chrome tools for scroll jank, page loads, main-thread hotspots, and stdlib module discovery. Available via `cargo install perfetto-mcp-rs`, `brew install`, or `curl … | sh`.
-- <img src="https://raw.githubusercontent.com/tooluse-labs/.github/main/assets/project-markers/wpa-mcp.svg" width="18" height="18" alt=""> [**wpa-mcp**](https://github.com/tooluse-labs/wpa-mcp) — MCP server for Windows ETW (`.etl`) trace analysis. ~17 tools across CPU / wait / image-load / file-disk-mmap I/O, each with a matching caller-callee drill-down; built on the official `Microsoft.Diagnostics.Tracing.TraceEvent` library. Windows-only. Install via PowerShell one-liner (`irm … | iex`) or Git Bash (`curl … | bash`).
+<table>
+  <tr>
+    <td width="56" align="center"><img src="https://raw.githubusercontent.com/tooluse-labs/.github/main/assets/project-markers/perfetto-mcp-rs.svg" width="44" height="44" alt=""></td>
+    <td><a href="https://github.com/tooluse-labs/perfetto-mcp-rs"><strong>perfetto-mcp-rs</strong></a><br>MCP server for Perfetto trace analysis. PerfettoSQL queries on <code>.pftrace</code> / <code>.perfetto-trace</code> / <code>.bin</code> files plus dedicated Chrome tools for scroll jank, page loads, main-thread hotspots, and stdlib module discovery. Available via <code>cargo install perfetto-mcp-rs</code>, <code>brew install</code>, or <code>curl ... | sh</code>.</td>
+  </tr>
+  <tr>
+    <td width="56" align="center"><img src="https://raw.githubusercontent.com/tooluse-labs/.github/main/assets/project-markers/wpa-mcp.svg" width="44" height="44" alt=""></td>
+    <td><a href="https://github.com/tooluse-labs/wpa-mcp"><strong>wpa-mcp</strong></a><br>MCP server for Windows ETW (<code>.etl</code>) trace analysis. ~17 tools across CPU / wait / image-load / file-disk-mmap I/O, each with a matching caller-callee drill-down; built on the official <code>Microsoft.Diagnostics.Tracing.TraceEvent</code> library. Windows-only. Install via PowerShell one-liner (<code>irm ... | iex</code>) or Git Bash (<code>curl ... | bash</code>).</td>
+  </tr>
+</table>
 
 ## Distribution
 
