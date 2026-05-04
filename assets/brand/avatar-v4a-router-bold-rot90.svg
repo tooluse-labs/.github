@@ -17,7 +17,6 @@
   </defs>
 
   <rect width="256" height="256" fill="url(#bg)"/>
-  <rect x="8" y="8" width="240" height="240" rx="48" fill="none" stroke="#E7FFFB" stroke-opacity=".06" stroke-width="2"/>
 
   <path d="M68 66 L42 66 L42 190 L68 190" fill="none" stroke="url(#bracket)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M188 66 L214 66 L214 190 L188 190" fill="none" stroke="url(#bracket)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
