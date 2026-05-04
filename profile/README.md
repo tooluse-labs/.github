@@ -1,9 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tooluse-labs/.github/main/assets/brand/logo-lockup.svg" width="720" alt="Tooluse Labs — Open-source tools for AI agents: MCP servers, skills, and supporting tooling.">
-</p>
-
----
-
 ## Active projects
 
 <table>
@@ -13,7 +7,7 @@
   </tr>
   <tr>
     <td width="72" align="center"><a href="https://github.com/tooluse-labs/wpa-mcp"><img src="https://raw.githubusercontent.com/tooluse-labs/wpa-mcp/main/assets/wpa-mcp-avatar.svg" width="56" height="56" alt=""></a></td>
-    <td><a href="https://github.com/tooluse-labs/wpa-mcp"><strong>wpa-mcp</strong></a><br>MCP server for Windows ETW (<code>.etl</code>) trace analysis. ~17 tools across CPU / wait / image-load / file-disk-mmap I/O, each with a matching caller-callee drill-down; built on the official <code>Microsoft.Diagnostics.Tracing.TraceEvent</code> library. Windows-only. Install via PowerShell one-liner (<code>irm ... | iex</code>) or Git Bash (<code>curl ... | bash</code>).</td>
+    <td><a href="https://github.com/tooluse-labs/wpa-mcp"><strong>wpa-mcp</strong></a><br>MCP server for Windows ETW (<code>.etl</code>) trace analysis. 54 tools spanning CPU, wait, image-load, file/disk/mmap I/O, virtual+heap memory, network, ALPC, registry, interrupts, CLR (GC/JIT/alloc/exception/contention), and any user-mode ETW provider — each top-N view paired with a caller-callee drill-down. Built on the official <code>Microsoft.Diagnostics.Tracing.TraceEvent</code> library. Windows-only. Install via PowerShell one-liner (<code>irm ... | iex</code>) or Git Bash (<code>curl ... | bash</code>).</td>
   </tr>
 </table>
 
