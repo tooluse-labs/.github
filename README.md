@@ -6,7 +6,7 @@ Org-level configuration and assets for [Tooluse Labs](https://github.com/tooluse
 
 - **`profile/README.md`** — the README rendered on https://github.com/tooluse-labs (the org profile page).
 - **`assets/brand/`** — canonical source files for the org avatar / logo. Update once here, re-upload to GitHub org settings + Glama + any other place the avatar is consumed.
-- **`assets/project-markers/`** — small per-project SVG markers used in the org profile's Active projects list.
+Project logos in `profile/README.md` should link to the owning repository's raw asset URL instead of keeping local copies here.
 
 ## Brand assets
 
