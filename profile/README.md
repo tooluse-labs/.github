@@ -2,6 +2,10 @@
 
 <table>
   <tr>
+    <td width="72" align="center"><a href="https://github.com/tooluse-labs/perfetto-desktop"><img src="https://raw.githubusercontent.com/tooluse-labs/perfetto-desktop/main/desktop/branding/github-repo-logo.png" width="56" height="56" alt=""></a></td>
+    <td><a href="https://github.com/tooluse-labs/perfetto-desktop"><strong>perfetto-desktop</strong></a><br>Tauri 2 desktop wrapper for the upstream Perfetto UI with AI-assisted trace analysis. Packages Perfetto as a native app and adds CLI Agent, a local MCP bridge that lets Codex, Claude Code, and other MCP clients analyze the trace currently open in the GUI.</td>
+  </tr>
+  <tr>
     <td width="72" align="center"><a href="https://github.com/tooluse-labs/perfetto-mcp-rs"><img src="https://raw.githubusercontent.com/tooluse-labs/perfetto-mcp-rs/main/assets/brand/logo-avatar.svg" width="56" height="56" alt=""></a></td>
     <td><a href="https://github.com/tooluse-labs/perfetto-mcp-rs"><strong>perfetto-mcp-rs</strong></a><br>MCP server for Perfetto trace analysis. PerfettoSQL queries on <code>.pftrace</code> / <code>.perfetto-trace</code> / <code>.bin</code> files plus dedicated Chrome tools for scroll jank, page loads, main-thread hotspots, and stdlib module discovery. Available via <code>cargo install perfetto-mcp-rs</code>, <code>brew install</code>, or <code>curl ... | sh</code>.</td>
   </tr>
